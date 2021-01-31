@@ -6,7 +6,7 @@ const data = [
         image: "https://www.muchbetteradventures.com/magazine/content/images/2021/01/South-west-coast.jpg",
         city: "Cornwall",
         difficulty: "Medium",
-        length: "117", //km
+        length: "200", //km
         rating: 4,
     },
     {
@@ -16,7 +16,7 @@ const data = [
         image: "https://www.muchbetteradventures.com/magazine/content/images/2021/01/Isle-of-skye.jpg",
         city: "Isle of Skye",
         difficulty: "Medium",
-        length: "80",
+        length: "190",
         rating: 3,
     },
     {
@@ -36,7 +36,7 @@ const data = [
         image: "https://www.muchbetteradventures.com/magazine/content/images/2021/01/Scaffell.jpg",
         city: "Lake District",
         difficulty: "Easy",
-        length: "0.98",
+        length: "100",
         rating: 4,
     },
     {
@@ -56,7 +56,7 @@ const data = [
         image: "https://www.muchbetteradventures.com/magazine/content/images/2021/01/Yorkshire-Dales.jpg",
         city: "Yorkshire",
         difficulty: "Easy",
-        length: "1.6", //Km
+        length: "90", //Km
         rating: 5, //
     },
     
