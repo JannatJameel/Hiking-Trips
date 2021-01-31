@@ -1,10 +1,11 @@
 import { SearchBarStyle } from "../styles";
 
-const SearchBar = (props) => {
+const SearchBar = ({setQuery}) => {
+
   return (
     <SearchBarStyle
       placeholder="Search for a hiking trip ..."
-      onChange={(event) => props.setQuery(event.target.value)}
+      onChange={(event) => setQuery(event.target.value)}
     />
   );
 };

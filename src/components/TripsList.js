@@ -7,14 +7,11 @@ import LengthBar from "./LengthBar";
 import DropDown from "./DropDown";
 
 
-const TripsList  = ({all})=>{
+const TripsList  = ()=>{
     const [query, setQuery] = useState("");
     const [length, setLength] = useState([200]);
     const [difficulty, setDifficulty] = useState("");
     
-
-    
-
     const tripsList = data
     .filter((trip) =>
     trip.name.toLowerCase().includes(query.toLowerCase()))
@@ -24,21 +21,6 @@ const TripsList  = ({all})=>{
     .map((trip) => (
         <Trip key = {trip.id} trip={trip}/>
     ));
-    
-    let allList;
-    if (all){
-    allList =data.map((trip) => (
-          <Trip key = {trip.id} trip={trip}/>
-        
-    ));
-    }
-    else{
-        allList=tripsList
-    }
-
-    
-
-    
 
     return (
         <div className="container">
@@ -51,7 +33,7 @@ const TripsList  = ({all})=>{
         </Search>
             <LengthBar length={length} setLength={setLength}/>
             <div className="row row-cols-auto" style={{marginLeft: "8em"}}>
-               {allList}
+               {tripsList}
                 {/* <ListWrapper></ListWrapper> */}
             </div>
         </div>
