@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
-import { DetailWrapper , RecommendedList, ListWrapper} from "../styles";
+import { DetailWrapper, ListWrapper} from "../styles";
 import data from "../data";
 import Trip from "./Trip";
 
-const TripDetail = ({}) => {
+const TripDetail = () => {
   const {tripSlug} = useParams();
   const trip = data.find((trip) => trip.slug === tripSlug);
     
