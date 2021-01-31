@@ -1,4 +1,4 @@
-import { FaRegGrinStars } from 'react-icons/fa';
+
 
 const data = [
     {
@@ -8,7 +8,7 @@ const data = [
         image: "https://www.muchbetteradventures.com/magazine/content/images/2021/01/South-west-coast.jpg",
         city: "Cornwall",
         difficulty: "Medium",
-        length: "200", //km
+        length: 200, //km
         rating: "⭐️⭐️⭐️⭐",
     },
     {
@@ -18,7 +18,7 @@ const data = [
         image: "https://www.muchbetteradventures.com/magazine/content/images/2021/01/Isle-of-skye.jpg",
         city: "Isle of Skye",
         difficulty: "Medium",
-        length: "190",
+        length: 190,
         rating: "⭐️⭐️⭐️",
     },
     {
@@ -28,7 +28,7 @@ const data = [
         image: "https://www.muchbetteradventures.com/magazine/content/images/2021/01/South-downs.jpg",
         city: "Hampshire",
         difficulty: "Hard",
-        length: "240",
+        length: 240,
         rating: "⭐️⭐️⭐️⭐️⭐️",
     },
     {
@@ -38,7 +38,7 @@ const data = [
         image: "https://www.muchbetteradventures.com/magazine/content/images/2021/01/Scaffell.jpg",
         city: "Lake District",
         difficulty: "Easy",
-        length: "100",
+        length: 100,
         rating: "⭐️⭐️⭐️⭐️",
     },
     {
@@ -48,7 +48,7 @@ const data = [
         image: "https://www.muchbetteradventures.com/magazine/content/images/2021/01/yoirkshire.jpg",
         city: "North Yorkshire",
         difficulty: "Hard",
-        length: "320",
+        length: 320,
         rating: "⭐️⭐️⭐️",
     },
     {
@@ -58,7 +58,7 @@ const data = [
         image: "https://www.muchbetteradventures.com/magazine/content/images/2021/01/Yorkshire-Dales.jpg",
         city: "Yorkshire",
         difficulty: "Easy",
-        length: "90", //Km
+        length: 90, //Km
         rating: "⭐️⭐️⭐️⭐️⭐️", 
     },
     

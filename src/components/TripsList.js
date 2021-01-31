@@ -8,7 +8,7 @@ import Range from "./Range";
 
 const TripsList  = ({setTrip})=>{
     const [query, setQuery] = useState("");
-    const [length, setLength] = useState("");
+    const [length, setLength] = useState(0);
 
     const tripsList = data
     .filter((trip) =>
@@ -16,7 +16,7 @@ const TripsList  = ({setTrip})=>{
     )
 
     .filter((trip) =>
-    trip.length<length
+    trip.length>length
     )
 
     .map((trip) => (
