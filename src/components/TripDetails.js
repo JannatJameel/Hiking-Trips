@@ -18,16 +18,18 @@ const TripDetail = ({}) => {
 
   return (
     <div>
-      <DetailWrapper className="row" style={{display: "block"}}>
+      <DetailWrapper style={{marginTop: "2em" }}>
         <h1>{trip.name}</h1>
-        <img src={trip.image} alt={trip.name} />
+        <img src={trip.image} alt={trip.name} style={{marginRight: "2em" }}/>
+        <div >
         <p>City: {trip.city}</p>
         <p>Difficulty: {trip.difficulty}</p>
         <p>Length: {trip.length} km</p>
         <p>Rating: {trip.rating}</p>
+        </div>
       </DetailWrapper>
       <br/>
-      <div className="row" style={{display: "block"}}>
+      <div   style={{marginTop: "10em" , marginLeft: "9em"}}>
         <h2>Other recommended trips:</h2>
         <div className="row row-cols-1 row-cols-md-3 g-4">
           <ListWrapper>{recommendation}</ListWrapper> 
