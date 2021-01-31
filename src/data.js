@@ -32,7 +32,7 @@ const data = [
     {
         id : 4,
         name: "Scafell Pike",
-        slug: "",
+        slug: "scafel-pike",
         image: "https://www.muchbetteradventures.com/magazine/content/images/2021/01/Scaffell.jpg",
         city: "Lake District",
         difficulty: "Easy",

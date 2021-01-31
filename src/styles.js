@@ -6,8 +6,9 @@ export const ListWrapper = styled.div`
   display: flex;
 `;
 
-export const Lis = styled.div`
-  align-items: center;
-  justify-content: center;
-  display: flex;
+export const SearchBarStyle = styled.input`
+  padding: 0.5rem;
+  margin: 1rem auto;
+  display: block;
+  width: 40%;
 `;

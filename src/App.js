@@ -1,9 +1,9 @@
-
 import './App.css';
 import TripList from "./components/TripsList";
+
 function App() {
   return (
-    <div >
+    <div>
       <TripList />
     </div>
   );
