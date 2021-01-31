@@ -1,6 +1,4 @@
-
 const Range  = ({setLength})=>{
-    
     return ( 
         <>
             <label for="customRange1" class="form-label">Select max Length</label>
@@ -8,7 +6,6 @@ const Range  = ({setLength})=>{
             onChange={(event) => setLength(+event.target.value)}></input>
         </>
     );
-        
-  };
+};
   
-  export default Range;
+export default Range;
