@@ -1,3 +1,5 @@
+import { FaRegGrinStars } from 'react-icons/fa';
+
 const data = [
     {
         id : 1,
@@ -7,7 +9,7 @@ const data = [
         city: "Cornwall",
         difficulty: "Medium",
         length: "200", //km
-        rating: 4,
+        rating: "⭐️⭐️⭐️⭐",
     },
     {
         id : 2,
@@ -17,7 +19,7 @@ const data = [
         city: "Isle of Skye",
         difficulty: "Medium",
         length: "190",
-        rating: 3,
+        rating: "⭐️⭐️⭐️",
     },
     {
         id : 3,
@@ -27,7 +29,7 @@ const data = [
         city: "Hampshire",
         difficulty: "Hard",
         length: "240",
-        rating: 5,
+        rating: "⭐️⭐️⭐️⭐️⭐️",
     },
     {
         id : 4,
@@ -37,7 +39,7 @@ const data = [
         city: "Lake District",
         difficulty: "Easy",
         length: "100",
-        rating: 4,
+        rating: "⭐️⭐️⭐️⭐️",
     },
     {
         id : 5,
@@ -47,7 +49,7 @@ const data = [
         city: "North Yorkshire",
         difficulty: "Hard",
         length: "320",
-        rating: 4,
+        rating: "⭐️⭐️⭐️",
     },
     {
         id : 6,
@@ -57,7 +59,7 @@ const data = [
         city: "Yorkshire",
         difficulty: "Easy",
         length: "90", //Km
-        rating: 5, //
+        rating: "⭐️⭐️⭐️⭐️⭐️", 
     },
     
 ];

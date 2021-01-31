@@ -6,10 +6,9 @@ import { useState } from "react";
 import Range from "./Range";
 
 
-const TripsList  = ()=>{
+const TripsList  = ({setTrip})=>{
     const [query, setQuery] = useState("");
     const [length, setLength] = useState("");
-
 
     const tripsList = data
     .filter((trip) =>
@@ -20,11 +19,9 @@ const TripsList  = ()=>{
     trip.length<length
     )
 
-   
-
     .map((trip) => (
     <div className="col">
-        <Trip key = {trip.id} trip={trip}/>
+        <Trip key = {trip.id} trip={trip} setTrip={setTrip}/>
         </div>
     ));
 

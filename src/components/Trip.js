@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 
-const Trip  = ({trip})=>{
+const Trip  = ({trip, setTrip})=>{
     
   return ( 
   <div className="card" style={{width: "18rem"}}>
@@ -7,11 +8,12 @@ const Trip  = ({trip})=>{
     <div className="card-body">
         <h5 className="card-title">{trip.name}</h5>
         <p className="card-text">Location: {trip.city}</p>
-        <a href="#" class="btn btn-primary">Trip Details</a>
-    </div>
+        <Link to = {`/trips/${trip.slug}`}>
+          <button type="button" className="btn btn-outline-secondary">Trip Details</button>
+        </Link>
+    </div> 
   </div>  
-  );
-      
+  );      
 };
 
 export default Trip;
